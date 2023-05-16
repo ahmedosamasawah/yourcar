@@ -1,0 +1,54 @@
+.header {
+  position: absolute;
+
+  font-family: 'Lora';
+  font-size: 125px;
+  left: 43%;
+
+  color: #ebebeb;
+}
+
+.carousel {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel .active {
+  background-color: #741906;
+}
+
+.inner {
+  transition: ease 1000ms;
+}
+
+.carItem:first-child {
+  margin-left: 1400px;
+}
+
+.carItem:last-child {
+  margin-right: 15px;
+}
+
+.dotBox button {
+  width: 8px;
+  background-color: gray;
+  border-radius: 50px;
+  height: 8px;
+  margin-top: 30px;
+}
+
+.dotBox button:hover {
+  background-color: #741906;
+}
+
+@media (max-width: 500px) {
+  .carItem:first-child {
+    margin-left: 1780px;
+  }
+
+  .carItem:last-child {
+    margin-right: -80px;
+  }
+}

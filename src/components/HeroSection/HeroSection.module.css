@@ -1,0 +1,20 @@
+.bg {
+  background-image: url('../../assets/Background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .heroContent br {
+    display: none;
+  }
+}

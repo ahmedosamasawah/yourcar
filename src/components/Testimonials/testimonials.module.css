@@ -1,0 +1,67 @@
+.icon {
+  width: 30.39px;
+  height: 28.05px;
+}
+
+.carousel {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #12273d;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.inner {
+  transition: ease 1000ms;
+}
+
+.slideBox:first-child {
+  margin-left: 2800px;
+}
+
+.slideBox:last-child {
+  margin-right: -2000px;
+}
+
+.testimonialImg {
+  height: 150px;
+  width: 200px;
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+}
+
+.carousel button {
+  width: 9px;
+  background-color: white;
+  border-radius: 50px;
+  height: 9px;
+}
+
+.carousel button:hover {
+  background-color: #f3ad35;
+}
+
+.carousel .active {
+  background-color: #f3ad35;
+}
+
+@media (max-width: 500px) {
+  .slideBox:first-child {
+    margin-left: 2020px;
+  }
+
+  .slideBox:last-child {
+    margin-right: 35px;
+  }
+
+  .testimonialImg {
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    bottom: 12%;
+    right: 1%;
+  }
+}

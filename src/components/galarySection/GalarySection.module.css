@@ -1,0 +1,20 @@
+.galarySec {
+  position: relative;
+  width: 1440px;
+  margin-top: -17px;
+}
+
+.galarySec img {
+  transition: transform 0.2s;
+  width: 100%;
+}
+
+.galarySec img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .galarySec {
+    width: 390px;
+  }
+}

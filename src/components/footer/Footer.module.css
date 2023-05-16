@@ -1,0 +1,15 @@
+.socialIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  color: #741906;
+}
+
+@media (max-width: 500px) {
+  br {
+    display: none;
+  }
+}

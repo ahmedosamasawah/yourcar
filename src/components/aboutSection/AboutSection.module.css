@@ -1,0 +1,22 @@
+.AboutSecImg div {
+  background-image: url(../../assets/imgAbout.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.AboutSecImg img {
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 650px;
+}
+
+@media (max-width: 500px) {
+  .AboutSecImg img {
+    display: none;
+  }
+}
+@media (max-width: 300px) {
+  .AboutSecImg img {
+    display: none;
+  }
+}

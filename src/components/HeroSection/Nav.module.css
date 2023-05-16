@@ -1,0 +1,28 @@
+.nav {
+  background-image: url("../../assets/Background.png");
+}
+
+.fixed {
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.textFixed p {
+  color: #12273d;
+  transition: 0.3s ease-in-out;
+}
+
+.textFixed a {
+  color: #12273d;
+  transition: 0.3s ease-in-out;
+}
+
+.textFixed p:hover {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.textFixed a:hover {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}

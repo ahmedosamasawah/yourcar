@@ -1,0 +1,31 @@
+.menu {
+  position: fixed;
+  right: 46px;
+  top: 7%;
+  height: 80vh;
+  width: 280px;
+  background: #12273d;
+  transition: ease-out 0.5s;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  opacity: 0.9;
+}
+
+.ul {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.ul li {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.ul li:hover {
+  background: rgba(116, 25, 6, 1);
+}
+
+.ul a {
+  color: white;
+}
